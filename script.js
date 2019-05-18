@@ -1,12 +1,3 @@
-/*
-1. variables and selectors
-2. an array with quotes
-3. main function with:
-	a) event listener
-	b) randomization function
-	c) displaying the chosen quote after event listener 
-*/
-
 var quote = document.getElementById('quote-text');
 var button = document.getElementById('generate-btn');
 
