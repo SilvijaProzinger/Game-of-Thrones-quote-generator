@@ -24,6 +24,7 @@ body {
 	left: 50%;
 	top: 50%;
 	border-radius: 15px;
+	opacity: 0.8;
 }
 
 .btn {
@@ -51,6 +52,37 @@ body {
 
 .fav-icon:hover{
 	fill: #45a3da;
+}
+
+.saved-faves {
+	padding: 8px;
+	font-size: 15px;
+	background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border: none;
+	border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    float:right;
+    position:relative;
+    margin-top:50px;
+}
+
+.saved-faves:hover {
+	background: rgb(48, 75, 154);
+	cursor: pointer;
+}
+
+.favorite-quotes {
+	background-color:#efefef;
+	height:auto;
+	width:300px;
+	padding:10px;
+	float:right;
+	margin-top:50px;
+	border-radius:15px;
+	opacity:0.8;
+	display:none;
 }
 
 footer {
