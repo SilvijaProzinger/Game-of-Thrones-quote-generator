@@ -1,7 +1,7 @@
 body {
 	font-family: 'Playfair Display', serif;
 	text-align: center;
-	background: url('background.jpg') no-repeat center center fixed; 
+	background: url('background.jpg') no-repeat center center fixed; /* Photo by Nico Benedickt on Unsplash */
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -9,7 +9,7 @@ body {
 }
 
 .quote {
-	color: #5DBCD2;
+	color: #4ca5b9;
 	font-size: 35px;
 	padding-bottom: 15px;
 }
@@ -29,14 +29,17 @@ body {
 .btn {
 	padding: 8px;
 	font-size: 18px;
-	background-color: #5DBCD2;
+	background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	border: none;
 	border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2)
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    outline:none;
 }
 
 .btn:hover {
-	background-color: rgb(223, 117, 20);
+	background: rgb(48, 75, 154);
 	cursor: pointer;
 }
 
