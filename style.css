@@ -75,20 +75,22 @@ body {
 
 .favorite-quotes {
 	background-color:#efefef;
-	height:auto;
 	width:300px;
+	height:auto;
 	padding:10px;
 	float:right;
 	margin-top:50px;
 	border-radius:15px;
 	opacity:0.8;
 	display:none;
+	overflow: hidden;
+    transition: width 0.9s ease;
 }
 
 footer {
 	color: white;
 	font-size: 15px;
-	position:absolute;
+	position:fixed;
     bottom:0;
     width:100%;
     height:50px;
