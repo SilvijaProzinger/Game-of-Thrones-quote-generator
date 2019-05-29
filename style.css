@@ -54,7 +54,7 @@ body {
 	fill: #45a3da;
 }
 
-.saved-faves {
+.saved-faves-btn {
 	padding: 8px;
 	font-size: 15px;
 	background: #4CA1AF;  /* fallback for old browsers */
@@ -68,7 +68,7 @@ body {
     margin-top:50px;
 }
 
-.saved-faves:hover {
+.saved-faves-btn:hover {
 	background: rgb(48, 75, 154);
 	cursor: pointer;
 }
@@ -79,12 +79,10 @@ body {
 	height:auto;
 	padding:10px;
 	float:right;
-	margin-top:50px;
+	margin-top: 50px;
 	border-radius:15px;
 	opacity:0.8;
 	display:none;
-	overflow: hidden;
-    transition: width 0.9s ease;
 }
 
 footer {
