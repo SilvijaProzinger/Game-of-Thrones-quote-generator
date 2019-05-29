@@ -1,5 +1,7 @@
 # Game of Thrones quote generator
 
+Live preview: https://silvijaprozinger.github.io/Game-of-Thrones-quote-generator/
+
 This is a small project I did for practice, done in HTML, CSS and plain JavaScript. It's an app where you can, after running the index.html file and clicking the button, get a random Game of Thrones quote. 
 
 ## How to run
